@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181b14fa-fec0-465a-9aec-f78376a2c7be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pan-xiaozhen-543981-unsplash.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Backdrop/Backdrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Toolbar/toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Toolbar/toolbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Toolbar/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Toolbar/toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Toolbar/toolbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Toolbar/toolbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,29 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sideDrawer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drawerToggleButton.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="toolbar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Toolbar/toolbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="59">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -73,11 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drawerToggleButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.js">
+      <file leaf-file-name="toolbar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Toolbar/toolbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="527">
+              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -89,19 +82,10 @@
         <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Toolbar/toolbar.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -118,8 +102,20 @@
       <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="416">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -140,6 +136,7 @@
     <findStrings>
       <find>Gatsby default</find>
       <find>gatsby default</find>
+      <find>color:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/layout.css" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/SideDrawer/DrawerToggleButton.js" />
         <option value="$PROJECT_DIR$/src/components/drawerToggleButton.js" />
         <option value="$PROJECT_DIR$/src/components/Header/header.js" />
@@ -162,12 +158,14 @@
         <option value="$PROJECT_DIR$/src/components/Backdrop/Backdrop.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.js" />
-        <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.scss" />
         <option value="$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.js" />
         <option value="$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.scss" />
         <option value="$PROJECT_DIR$/src/components/Toolbar/toolbar.js" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/components/Toolbar/toolbar.scss" />
+        <option value="$PROJECT_DIR$/src/components/image.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
       </list>
     </option>
   </component>
@@ -248,6 +246,12 @@
               <item name="pernicka-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="pernicka-site" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pernicka-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pernicka-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -277,6 +281,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Katharina\Projects\pernicka-site\src\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Katharina\Projects\pernicka-site\src\components\SideDrawer" />
       <recent name="C:\Users\Katharina\Projects\pernicka-site\src\components\Header" />
@@ -347,12 +354,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546709674032</updated>
-      <workItem from="1546709675764" duration="14686000" />
+      <workItem from="1546709675764" duration="17709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14686000" />
+    <option name="totallyTimeSpent" value="17709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -397,16 +404,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/drawerToggleButton.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -440,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Backdrop/Backdrop.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -458,16 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,7 +471,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/SideDrawer/sideDrawer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -520,18 +500,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Toolbar/toolbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="59">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Toolbar/toolbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="527">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

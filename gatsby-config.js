@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Pernicka`,
+    title: `PERNICKA`,
     description: `Ihr Installateur in Niederösterreich und Wien`,
     author: `@fargo`,
   },
