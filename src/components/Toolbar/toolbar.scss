@@ -3,14 +3,14 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: aquamarine;
+  background: #7395AE;
   height: 80px;
 }
 
 .toolbar__navigation {
   display: flex;
   align-items: baseline;
-  padding: 0 1em;
+  padding: 0 3.5em;
 }
 
 .toolbar__logo {
@@ -24,6 +24,7 @@
 .toolbar__logo a {
   text-decoration: none;
   font-size: 2.5em;
+  color: white;
 }
 
 .spacer {
@@ -40,6 +41,9 @@
 .toolbar_navigation-items li {
   padding: 0 0.5em;
   font-size: 1em;
+  a {
+    color: white;
+  }
 }
 
 .toolbar_navigation-items a {
@@ -47,7 +51,7 @@
 }
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: orange;
+  color: #379683;
 }
 
 @media (max-width: 768px) {
@@ -68,14 +72,24 @@
 
 .quick-contact-info {
   display: flex;
-  margin: 0.5em 0 0 0;
+  margin: 0 0 0 0;
+  padding-top: 0.5em;
+  background-color: #557A95;
   .quick-contact-info-items {
-    padding: 0 1.5em;
+    padding: 0em 1.5em 0.5em;
     display: flex;
     font-size: 0.9em;
   }
 }
 
 .text {
-  color: rebeccapurple;
+  color: white;
+}
+
+#phone-number {
+  margin-left: 0.5em;
+}
+
+#e-mail-address {
+  margin-left: 0.5em;
 }

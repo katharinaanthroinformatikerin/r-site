@@ -3,13 +3,15 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import './toolbar.scss'
 import DrawerToggleButton from '../SideDrawer/drawerToggleButton';
+import phone from '../../images/phone.svg';
+import mail from '../../images/mail.svg';
 
 const Toolbar = props => {
   return <header className="toolbar">
     <div className="quick-contact-info">
       <div className="spacer"></div>
-      <span className="quick-contact-info-items text">Tel: +43 22 16 / 24 44</span>
-      <span className="quick-contact-info-items text">E-Mail: office@pernicka.at</span>
+      <span className="quick-contact-info-items text"><img src={phone} alt="Telefonnummer"/><span id="phone-number">+43 22 16 / 24 44</span></span>
+      <span className="quick-contact-info-items text"><img src={mail} alt="E-Mail-Adresse"/><span id="e-mail-address">office@pernicka.at</span></span>
     </div>
     <nav className="toolbar__navigation">
       <div className="toolbar__toggle-button">

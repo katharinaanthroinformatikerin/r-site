@@ -21,12 +21,12 @@ const Layout = ({ children }) => (
     render={data => (
       <div style={{height: '100%'}}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
+        <div style={{ marginBottom: `1.45rem`, marginLeft: `auto`, marginRight: `auto`, marginTop: `80px`, backgroundColor: `#CDD9DE`}} id="page-content">
           {children}
-          <footer style={{display: `flex`, justifyContent: `center`}}>
-            © {new Date().getFullYear()}
-          </footer>
         </div>
+        <footer style={{display:`block`, width: `100%`, position: `static`, bottom: `0`}}>
+          © {new Date().getFullYear()}
+        </footer>
       </div>
     )}
   />
