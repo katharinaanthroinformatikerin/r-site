@@ -1,6 +1,8 @@
 .toolbar {
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   background: aquamarine;
   height: 80px;
 }
@@ -8,7 +10,6 @@
 .toolbar__navigation {
   display: flex;
   align-items: baseline;
-  height: 50%;
   padding: 0 1em;
 }
 
@@ -67,7 +68,7 @@
 
 .quick-contact-info {
   display: flex;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0 0 0;
   .quick-contact-info-items {
     padding: 0 1.5em;
     display: flex;
@@ -76,5 +77,5 @@
 }
 
 .text {
-  color: black;
+  color: rebeccapurple;
 }

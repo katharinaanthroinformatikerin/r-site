@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Installateur Pernicka" keywords={[`Installateur`, `Wien`, `Niederösterreich`, `Pernicka`, `Gas`, `Wasser`, `Heizung`]} />
-    <div style={{ maxWidth: `600px`, marginBottom: `1.45rem`, marginLeft: `auto`, marginRight: `auto`, justifyContent: `center` }}>
+    <div style={{ maxWidth: `800px`, marginBottom: `1.45rem`, marginLeft: `auto`, marginRight: `auto`, marginTop: `80px` }}>
       <p>{' '}</p>
       <Image/>
     </div>

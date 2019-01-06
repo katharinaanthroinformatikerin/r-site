@@ -21,9 +21,9 @@ const Layout = ({ children }) => (
     render={data => (
       <div style={{height: '100%'}}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div style={{paddingTop: '64px'}}>
+        <div>
           {children}
-          <footer>
+          <footer style={{display: `flex`, justifyContent: `center`}}>
             © {new Date().getFullYear()}
           </footer>
         </div>
