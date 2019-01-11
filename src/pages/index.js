@@ -1,26 +1,32 @@
 import React from 'react'
 /*import { Link } from 'gatsby'*/
 
-import Layout from '../components/layout'
-/*import Image from '../components/image'*/
+import Layout from '../components/Layout/layout'
+/*import Image from '../components/image'* */
 import SEO from '../components/seo'
+import '../styles/global.scss'
+import './index.scss'
+import Carousel from 'nuka-carousel';
 import tap from '../images/pan-xiaozhen-543981-unsplash.jpg'
+import water from '../images/clean-drop-of-water-liquid-40784.jpg'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Installateur Pernicka" keywords={[`Installateur`, `Wien`, `Niederösterreich`, `Pernicka`, `Gas`, `Wasser`, `Heizung`]} />
       <div style={{paddingTop: `20px`}}>
-        <div style={{margin: `0`, padding: `0`, width: `66%`,  backgroundColor: `blue`, height:`50px`, float: `left`}}>
-            <img src={tap} alt="Wasserhahn" style={{ width: `100%`}} />
+        <div style={{padding: `0`, width: `66%`,  backgroundColor: `blue`, height:`450px`, float: `left`}}>
+          <Carousel autoplay="true" heightMode="first">
+            <img src={water} />
+            <img src={tap} />
+          </Carousel>
         </div>
-        <div style={{margin: `0`, paddingTop: `2em`, width: `34%`, float: `right`, fontSize: `1.5em`}}>
-          <p style={{display: `flex`, justifyContent: `center`}}>Ihr Installateur</p>
-          <p style={{display: `flex`, justifyContent: `center`}}>für</p>
-          <p style={{display: `flex`, justifyContent: `center`}}>Niederösterreich und Wien</p>
-            <p style={{display: `flex`, justifyContent: `center`}}>JT Systemtech GmbH</p>
-          <p style={{display: `flex`, justifyContent: `center`}}>Pernicka</p>
-            <p style={{display: `flex`, justifyContent: `center`}}>2285 Leopoldsdorf/i. M.</p>
-          <p style={{display: `flex`, justifyContent: `center`}}>Gas - Wasser - Heizungsinstallationen</p>
+        <div className="business_card">
+          <p>
+            <span className="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
+            2285 Leopoldsdorf/i. M.<br/>
+            Gas - Wasser - Heizungsinstallationen<br/><br/>
+            Ihr Installateur für Niederösterreich und Wien<br/>
+          </p>
         </div>
       </div>
   </Layout>

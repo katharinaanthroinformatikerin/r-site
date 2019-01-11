@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import './layout.scss'
 
-import Header from './Header/Header'
+import Header from '../Header/Header'
 
 
 const Layout = ({ children }) => (
@@ -19,14 +19,16 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div style={{height: '100%'}}>
+      <div>
+      <div id="all_but_footer">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div style={{ marginBottom: `1.45rem`, marginLeft: `auto`, marginRight: `auto`, marginTop: `80px`, backgroundColor: `#CDD9DE`}} id="page-content">
+        <div style={{ marginLeft: `auto`, marginRight: `auto`, marginTop: `80px`, backgroundColor: `#CDD9DE`, height:`100%`}} id="page-content">
           {children}
         </div>
-        <footer style={{display:`block`, width: `100%`, position: `static`, bottom: `0`}}>
-          © {new Date().getFullYear()}
-        </footer>
+      </div>
+      <footer id="footer">
+        © {new Date().getFullYear()}
+      </footer>
       </div>
     )}
   />

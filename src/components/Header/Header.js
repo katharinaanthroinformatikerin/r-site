@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import SideDrawer from '../SideDrawer/sideDrawer'
 import Backdrop from '../Backdrop/Backdrop'
 import Toolbar from '../Toolbar/toolbar'
+import './Header.scss'
 
 class Header extends Component {
   state = {

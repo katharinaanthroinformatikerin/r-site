@@ -4,7 +4,8 @@
   top: 0;
   left: 0;
   background: #7395AE;
-  height: 80px;
+  height: 100px;
+  z-index: 1000;
 }
 
 .toolbar__navigation {
@@ -51,7 +52,7 @@
 }
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: #379683;
+  color: #051620;
 }
 
 @media (max-width: 768px) {
