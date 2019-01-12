@@ -16,25 +16,57 @@ const IndexPage = () => (
     <SEO title="Installateur Pernicka" keywords={[`Installateur`, `Wien`, `Niederösterreich`, `Pernicka`, `Gas`, `Wasser`, `Heizung`]} />
       <div id="start_section_container">
         <div id="carousel_container">
-          <Carousel autoplay={false} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
+          <Carousel autoplay={true} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
             <img className="carousel_img" src={water} alt=""/>
             <img className="carousel_img" src={tap} alt=""/>
           </Carousel>
         </div>
         <div id="business_card_container">
+          <div id="card_wrapper">
           <p>
             <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
-            2285 Leopoldsdorf/i. M.<br/>
+            2285 Leopoldsdorf/i. M.<br/><br/>
             Gas - Wasser - Heizungsinstallationen<br/><br/>
-            Ihr Installateur für Niederösterreich und Wien<br/><br/>
             Öffnungszeiten: <br/>
-            Mo-Fr: 8:00 - 17:00 <br/>
+            Mo-Fr: 8:00 - 17:00 <br/><br/>
+            Wir sind in <br/>Niederösterreich und Wien <br/>für Sie da!
           </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="leistungen_section_container">
+        <h1 className="section_heading">Unsere Leistungen</h1>
+        <div className="leistung_container">
+          <h2>Gas</h2>
+          <p>
+            Kochen, Backen, Heizen - und alles mit Gas. Unsere modernen Koch- und Heizgeräte sind den Höchstanfoderungen
+            an sparsamen Energieverbrauch und schadstoffarme Verbrennung gewachsen. <span style={{fontWeight: `bold`}}>Mehr lesen...</span>
+          </p>
+        </div>
+        <div className="leistung_container">
+          <h2>Wasser</h2>
+        </div>
+        <div className="leistung_container">
+          <h2>Heizung</h2>
+        </div>
+        <div className="leistung_container">
+          <h2>Beratung und Planung</h2>
+          <p>
+            Kochen, Backen, Heizen - und alles mit Gas. Unsere modernen Koch- und Heizgeräte sind den Höchstanfoderungen
+            an sparsamen Energieverbrauch und schadstoffarme Verbrennung gewachsen. <span style={{fontWeight: `bold`}}>Mehr lesen...</span>
+          </p>
+        </div>
+        <div className="leistung_container">
+          <h2>Service</h2>
+        </div>
+        <div className="leistung_container">
+          <h2>Abgasmessung <br/>und<br/> Kaminsanierung</h2>
         </div>
       </div>
 
       <div id="team_section_container">
-        <h1 id="team_heading">Unser Team</h1>
+        <h1 className="section_heading">Unser Team</h1>
         <div className="team_member_left">
           <img src={profilePic} alt="Franz Pernicka" className="profile_pic"/>
           <div className="profile_text">
