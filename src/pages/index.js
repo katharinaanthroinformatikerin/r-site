@@ -14,49 +14,57 @@ import profilePic2 from '../images/profile_picture_male_2.png'
 const IndexPage = () => (
   <Layout>
     <SEO title="Installateur Pernicka" keywords={[`Installateur`, `Wien`, `Niederösterreich`, `Pernicka`, `Gas`, `Wasser`, `Heizung`]} />
-      <div id="landing_section_container" style={{position: `static`, top: `100px`, height:`450px`, marginTop: `100px`, padding: `1em 0 0 1em`, clear: `both`}}>
-        <div id="carousel_container" style={{ float: `left`, width: `66%`, height: `100%`}}>
-          <Carousel autoplay={true} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
-            <img src={water} style={{height: `450px`, borderRadius: `10px`}} alt=""/>
-            <img src={tap} style={{height: `450px`, borderRadius: `10px`}} alt="" />
+      <div id="start_section_container">
+        <div id="carousel_container">
+          <Carousel autoplay={false} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
+            <img className="carousel_img" src={water} alt=""/>
+            <img className="carousel_img" src={tap} alt=""/>
           </Carousel>
         </div>
-        <div id="business_card_container" style={{ float: `right`, width: `34%`, height: `100%`, textAlign: `center`, paddingTop: `2em`}}>
-          <p>
-            <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
-            2285 Leopoldsdorf/i. M.<br/>
-            Gas - Wasser - Heizungsinstallationen<br/><br/>
-            Ihr Installateur für Niederösterreich und Wien<br/><br/>
-            Öffnungszeiten: <br/>
-            Mo-Fr: 8:00 - 17:00 <br/>
-          </p>
+        <div id="contact_card_container">
+
         </div>
       </div>
-      <div id="team_section" style={{clear: `both`, width: `100%`, height: `20em`,
-        backgroundColor: ``, color: `#051620`}}>
-        <h1 style={{textAlign: `center`, paddingTop: `1em`}}>Unser Team</h1>
-        <div style={{backgroundColor: ``, float: `left`, height: `100%`, width: `50%`}}>
-          <img src={profilePic} alt="Franz Pernicka" style={{display: `block`, marginLeft: `auto`, marginRight: `auto`, height: `50%`, borderRadius: `50%`}}/>
-          <div style={{display: `block`, marginLeft: `auto`, marginRight: `auto`, textAlign: `center`, paddingRight: `1em`}}>
+
+      <div id="team_section_container">
+        <h1 id="team_heading">Unser Team</h1>
+        <div className="team_member_left">
+          <img src={profilePic} alt="Franz Pernicka" className="profile_pic"/>
+          <div className="profile_text">
             <h3>Franz Pernicka</h3>
             <p>Franz Pernicka ist einer unserer Projektleiter und Product Owner.</p>
           </div>
         </div>
-        <div style={{backgroundColor: ``, float: `right`, height: `100%`, width: `50%`}}>
-          <img src={profilePic2} alt="Hannes Tomek" style={{display: `block`, marginLeft: `auto`, marginRight: `auto`, height: `50%`, borderRadius: `50%`}}/>
-          <div style={{display: `block`, marginLeft: `auto`, marginRight: `auto`, textAlign: `center`, paddingLeft: `1em`}}>
+        <div className="team_member_right">
+          <img src={profilePic2} alt="Hannes Tomek" className="profile_pic"/>
+          <div className="profile_text">
             <h3>Hannes Tomek</h3>
             <p>Hannes Tomek erreicht Orte, die für andere unmöglich erscheinen.</p>
           </div>
         </div>
       </div>
+
+    <div id="landing_section_container">
+      <div id="carousel_container">
+        <Carousel autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
+          <img className="carousel_img" src={water} alt=""/>
+          <img className="carousel_img" src={tap} alt="" />
+        </Carousel>
+      </div>
+      <div id="business_card_container">
+        <p>
+          <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
+          2285 Leopoldsdorf/i. M.<br/>
+          Gas - Wasser - Heizungsinstallationen<br/><br/>
+          Ihr Installateur für Niederösterreich und Wien<br/><br/>
+          Öffnungszeiten: <br/>
+          Mo-Fr: 8:00 - 17:00 <br/>
+        </p>
+      </div>
+    </div>
+
   </Layout>
 )
-
-/*
-    position: `absolute`, height:`100%`, right: `34%`, width: `100%`
-    position: `absolute`, height:`100%`, left: `66%`, width: `100%`
-*/
 
 export default IndexPage
 
