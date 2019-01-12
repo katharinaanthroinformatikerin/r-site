@@ -16,7 +16,7 @@ const IndexPage = () => (
     <SEO title="Installateur Pernicka" keywords={[`Installateur`, `Wien`, `Niederösterreich`, `Pernicka`, `Gas`, `Wasser`, `Heizung`]} />
       <div id="landing_section_container" style={{position: `static`, top: `100px`, height:`450px`, marginTop: `100px`, padding: `1em 0 0 1em`, clear: `both`}}>
         <div id="carousel_container" style={{ float: `left`, width: `66%`, height: `100%`}}>
-          <Carousel autoplay={true} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true}>
+          <Carousel autoplay={true} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
             <img src={water} style={{height: `450px`, borderRadius: `10px`}} alt=""/>
             <img src={tap} style={{height: `450px`, borderRadius: `10px`}} alt="" />
           </Carousel>
