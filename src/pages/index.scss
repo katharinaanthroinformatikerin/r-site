@@ -1,19 +1,21 @@
 .business_card {
-  margin: 0;
-  paddingTop: 2em;
-  width: 34%;
-  float: right;
   fontSize: 1.5em;
+  background-color: rebeccapurple;
 }
 
 .business_card p {
   color: #051620;
   align-items: center;
-  padding-top: 2em;
-  padding-left: 2em;
 }
 
 .business_card_title {
   font-weight: bold;
   font-size: 1em;
+}
+
+#team_section {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background-color: aquamarine;
 }

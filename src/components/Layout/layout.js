@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
       <div>
       <div id="all_but_footer">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div style={{ marginLeft: `auto`, marginRight: `auto`, marginTop: `80px`, backgroundColor: `#CDD9DE`, height:`100%`}} id="page-content">
+        <div id="page-content">
           {children}
         </div>
       </div>
