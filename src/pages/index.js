@@ -12,14 +12,14 @@ import water from '../images/clean-drop-of-water-liquid-40784.jpg'
 const IndexPage = () => (
   <Layout>
     <SEO title="Installateur Pernicka" keywords={[`Installateur`, `Wien`, `Niederösterreich`, `Pernicka`, `Gas`, `Wasser`, `Heizung`]} />
-      <div id="landing_section_container" style={{position: `relative`, top: `100px`, height:`450px`, margin: `0`, padding: `0`}}>
-        <div id="carousel_container" style={{position: `absolute`, height:`100%`, right: `34%`, width: `100%`}}>
-          <Carousel autoplay={true} autoplayInterval={2000} heightMode="max" transitionMode="fade" speed={4000} wrapAround={true}>
-            <img src={water} />
-            <img src={tap} />
+      <div id="landing_section_container" style={{position: `static`, top: `100px`, height:`450px`, marginTop: `100px`, padding: `0`, clear: `both`}}>
+        <div id="carousel_container" style={{ float: `left`, width: `66%`, height: `100%`}}>
+          <Carousel autoplay={true} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true}>
+            <img src={water} style={{height: `450px`}} />
+            <img src={tap} style={{height: `450px`}} />
           </Carousel>
         </div>
-        <div id="business_card_container" style={{position: `absolute`, height:`100%`, left: `66%`, width: `100%`}}>
+        <div id="business_card_container" style={{ float: `right`, width: `34%`, height: `100%`}}>
           <p>
             <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
             2285 Leopoldsdorf/i. M.<br/>
@@ -28,10 +28,16 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
-    <section id="team_section" style={{position: `relative`}}>
+      <div id="team_section" style={{clear: `both`}}>
 
-    </section>
+      </div>
   </Layout>
 )
 
+/*
+    position: `absolute`, height:`100%`, right: `34%`, width: `100%`
+    position: `absolute`, height:`100%`, left: `66%`, width: `100%`
+*/
+
 export default IndexPage
+
