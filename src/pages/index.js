@@ -21,8 +21,15 @@ const IndexPage = () => (
             <img className="carousel_img" src={tap} alt=""/>
           </Carousel>
         </div>
-        <div id="contact_card_container">
-
+        <div id="business_card_container">
+          <p>
+            <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
+            2285 Leopoldsdorf/i. M.<br/>
+            Gas - Wasser - Heizungsinstallationen<br/><br/>
+            Ihr Installateur für Niederösterreich und Wien<br/><br/>
+            Öffnungszeiten: <br/>
+            Mo-Fr: 8:00 - 17:00 <br/>
+          </p>
         </div>
       </div>
 
@@ -43,25 +50,6 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-
-    <div id="landing_section_container">
-      <div id="carousel_container">
-        <Carousel autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
-          <img className="carousel_img" src={water} alt=""/>
-          <img className="carousel_img" src={tap} alt="" />
-        </Carousel>
-      </div>
-      <div id="business_card_container">
-        <p>
-          <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
-          2285 Leopoldsdorf/i. M.<br/>
-          Gas - Wasser - Heizungsinstallationen<br/><br/>
-          Ihr Installateur für Niederösterreich und Wien<br/><br/>
-          Öffnungszeiten: <br/>
-          Mo-Fr: 8:00 - 17:00 <br/>
-        </p>
-      </div>
-    </div>
 
   </Layout>
 )
