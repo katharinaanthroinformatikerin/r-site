@@ -44,11 +44,18 @@ p {
   color: white;
 }
 
-.business_card_title {
+#business_card_title {
   font-weight: bold;
   font-size: 1em;
 }
 */
+
+#business_card_title {
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
 
 #team_section_container {
   position: relative;
@@ -114,6 +121,7 @@ p {
   overflow: hidden;
 }
 
+
 .carousel_img {
   position: absolute;
   left: -1000%;
@@ -133,23 +141,25 @@ p {
   float: right;
   height: 100%;
   width: 33%;
-  background-color: rgba(205,217,222, 1);
+  background-color: rgba(205,217,222, 1.0);
   // background-color: #051620;
   // color: white;
   color: #051620;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
   opacity: 0.7;
   text-align: center;
   padding-top: 2em;
 }
 
+
 #business_card_container #card_wrapper {
   margin-left: 2em;
   margin-right: 2em;
   padding: 1em;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white;
   border-radius: 10px;
+  // background-color: rgba(38, 60, 75, 0.7);
 }
 
 #leistungen_section_container {
@@ -176,6 +186,11 @@ p {
 
 .leistung_container p {
   padding: 1em;
+}
+
+#business_card_title {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 

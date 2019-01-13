@@ -17,12 +17,13 @@ const Toolbar = props => {
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler}/>
       </div>
-      <div className="toolbar__logo text"><Link to="/">{props.siteTitle}</Link>
+      <div className="toolbar__logo text">
+        <Link to="/"><span id="pretext_logo">Installateur </span>{props.siteTitle}</Link>
       </div>
       <div className="spacer"></div>
       <div className="toolbar_navigation-items text">
         <ul>
-          <li className="one"><Link to="/">Startseite</Link></li>
+          <li className="one"><Link to="/">Home</Link></li>
           <li className="two"><Link to="/">Leistungen</Link></li>
           <li className="three"><Link to="/">Über uns</Link></li>
           <li className="four"><Link to="/">Kontakt</Link></li>

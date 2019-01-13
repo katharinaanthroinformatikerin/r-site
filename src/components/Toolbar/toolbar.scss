@@ -3,7 +3,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #7395AE;
+  // background: #7395AE;
+  background: #3D5669;
   height: 100px;
   z-index: 1000;
 }
@@ -11,7 +12,7 @@
 .toolbar__navigation {
   display: flex;
   align-items: baseline;
-  padding: 30px 3em 25px 3.5em;
+  padding: 30px 2em 25px 2em;
 }
 
 .toolbar__logo {

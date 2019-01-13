@@ -6,8 +6,10 @@ import SEO from '../components/seo'
 import '../styles/global.scss'
 import './index.scss'
 import Carousel from 'nuka-carousel';
-import tap from '../images/pan-xiaozhen-543981-unsplash.jpg'
-import water from '../images/clean-drop-of-water-liquid-40784.jpg'
+import tap from '../images/tap_medium_cropped.jpg'
+import water from '../images/drops-of-water-medium_cropped.jpg'
+import gas from '../images/gas_medium_cropped.jpg'
+
 import profilePic from '../images/profile_picture_male.jpg'
 import profilePic2 from '../images/profile_picture_male_2.png'
 
@@ -19,12 +21,14 @@ const IndexPage = () => (
           <Carousel autoplay={true} autoplayInterval={2000} transitionMode="fade" speed={4000} wrapAround={true} withoutControls={true}>
             <img className="carousel_img" src={water} alt=""/>
             <img className="carousel_img" src={tap} alt=""/>
+            <img className="carousel_img" src={gas} alt=""/>
           </Carousel>
         </div>
         <div id="business_card_container">
           <div id="card_wrapper">
           <p>
-            <span id="business_card_title">JT Systemtech GmbH Pernicka</span><br/>
+            JT Systemtech GmbH<br/>
+            <span id="business_card_title">Pernicka</span><br/>
             2285 Leopoldsdorf/i. M.<br/><br/>
             Gas - Wasser - Heizungsinstallationen<br/><br/>
             Öffnungszeiten: <br/>
